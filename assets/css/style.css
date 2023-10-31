@@ -1,0 +1,276 @@
+/* import font face */
+@font-face {
+    font-family: 'UnimedSlab Regular';
+    src: url('../fonts/UnimedSlab2020-Rg.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UnimedSlab SemiBold';
+    src: url('../fonts/UnimedSlab2020-Sb.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UnimedSlab ExtraBold';
+    src: url('../fonts/UnimedSlab2020-Xb.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UnimedSans ExtraBold';
+    src: url('../fonts/UnimedSans2020-Xb.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'UnimedSans SemiBold';
+    src: url('../fonts/UnimedSans2020-Sb.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'UnimedSans Book';
+    src: url('../fonts/UnimedSans2020-Bk.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UnimedSans BookCD';
+    src: url('../fonts/UnimedSans2020-BkCd.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UnimedSans Bold';
+    src: url('../fonts/UnimedSlab2020-Bd.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UnimedSans BoldItalic';
+    src: url('../fonts/UnimedSans-BoldItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UnimedSans SemiBoldItalic';
+    src: url('../fonts/UnimedSans-SemiBoldItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+.scene-1{
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    
+}
+.logo {
+	background-image: url(../img/logo.png);
+	width: 33.5%;
+	height: 29%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 1;
+	position: absolute;
+	left: 36%;
+	top: 13%;
+}
+.text-1 {
+	width: 56%;
+	height: 28%;
+	top: 29%;
+	left: 19%;
+	z-index: 1;
+	position: absolute;
+	/* border: 1px solid red; */
+	opacity: 0;
+}
+
+#text-1 {
+    font-size: 4vw;
+    color: #0a5f55;
+    font-family: 'UnimedSans BoldItalic';
+	/* text-align: center; */
+	opacity: 1;
+}
+
+.text-2 {
+	width: 78%;
+	height: 6%;
+	top: 41%;
+	left: 18%;
+	z-index: 1;
+	position: absolute;
+	/* background-color: #ffcb08; */
+	/* border-radius: 3vw; */
+	/* border: 1px solid red; */
+	opacity: 0;
+}
+
+#text-2 {
+    font-size: 1.9vw;
+    color: #5b5c65;
+    /* text-align: center; */
+    font-family: 'UnimedSans Book';
+	opacity: 1;
+}
+
+.text-3 {
+	width: 78%;
+	height: 6%;
+	top: 45.8%;
+	left: 19%;
+	z-index: 1;
+	position: absolute;
+	/* background-color: #ffcb08; */
+	/* border-radius: 3vw; */
+	/* border: 1px solid red; */
+	opacity: 0;
+}
+
+#text-3 {
+    font-size: 1.5vw;
+    color: #5b5c65;
+    /* text-align: center; */
+    font-family: 'UnimedSans Book';
+	opacity: 1;
+}
+
+
+.text-4 {
+	width: 78%;
+	height: 6%;
+	top: 49.8%;
+	left: 19%;
+	z-index: 1;
+	position: absolute;
+	/* background-color: #ffcb08; */
+	/* border-radius: 3vw; */
+	/* border: 1px solid red; */
+	opacity: 0;
+}
+
+#text-4 {
+    font-size: 1.5vw;
+    color: #5b5c65;
+    /* text-align: center; */
+    font-family: 'UnimedSans Book';
+	opacity: 1;
+}
+
+.text-5 {
+	width: 78%;
+	height: 6%;
+	top: 53.8%;
+	left: 19%;
+	z-index: 1;
+	position: absolute;
+	/* background-color: #ffcb08; */
+	/* border-radius: 3vw; */
+	/* border: 1px solid red; */
+	opacity: 0;
+}
+
+#text-5 {
+    font-size: 1.5vw;
+    color: #5b5c65;
+    /* text-align: center; */
+    font-family: 'UnimedSans Book';
+	opacity: 1;
+}
+
+.text-6 {
+	width: 78%;
+	height: 6%;
+	top: 57.8%;
+	left: 19%;
+	z-index: 1;
+	position: absolute;
+	/* background-color: #ffcb08; */
+	/* border-radius: 3vw; */
+	/* border: 1px solid red; */
+	opacity: 0;
+}
+
+#text-6 {
+    font-size: 1.5vw;
+    color: #5b5c65;
+    /* text-align: center; */
+    font-family: 'UnimedSans Book';
+	opacity: 1;
+}
+
+.text-7 {
+	width: 78%;
+	height: 6%;
+	top: 63.8%;
+	left: 18%;
+	z-index: 1;
+	position: absolute;
+	/* background-color: #ffcb08; */
+	/* border-radius: 3vw; */
+	/* border: 1px solid red; */
+	opacity: 0;
+}
+
+#text-7 {
+    font-size: 1.5vw;
+    color: #1daa7d;
+    /* text-align: center; */
+    font-family: 'UnimedSans SemiBoldItalic';
+	opacity: 1;
+}
+
+.image-1 {
+	width: 7%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+	opacity: 1;
+	top: 75%;
+	left: 47%;
+    opacity: 0;
+}
+
+#image-1{
+   
+        background-image: url(../img/image-1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+ 
+}
